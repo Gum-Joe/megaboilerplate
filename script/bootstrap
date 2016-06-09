@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+// Bootstrap script for megaboilerplate
+// Removes files not needed in boilderplate
+// DO NOT RUN THIS IN A DEVELOPMENT ENVIRONMENT
+
+/** 
+ * Module dependencies
+ */
+const fs = require('fs');
+
+// Vars
+// Files to remove
+// Add them here
+const rmfiles = [
+  "ISSUE_TEMPLATE.md"
+]
+
+// Remove each file
+// TODO
